@@ -3,7 +3,7 @@ pares = []
 impares = []
 
 # Recorrer los números del 0 al 100
-for i in range(101):
+for i in range(100):
     if i % 2 == 0:
         pares.append(i)
     else:
@@ -11,4 +11,5 @@ for i in range(101):
 
 # Mostrar resultados
 print("Números pares:", pares)
+print()
 print("Números impares:", impares)
