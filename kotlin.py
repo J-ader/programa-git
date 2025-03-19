@@ -14,4 +14,8 @@ print("Números pares:", pares)
 print()
 print("Números impares:", impares)
 
-print("modificando codigos")
+
+
+
+print ("este es el inicio del nuevo codigo")
+
