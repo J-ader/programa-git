@@ -1,6 +1,14 @@
-print ("LIS")
-list = (1,2,3,4,4,000)
+# Inicializar listas para números pares e impares
+pares = []
+impares = []
 
-print()
+# Recorrer los números del 0 al 100
+for i in range(101):
+    if i % 2 == 0:
+        pares.append(i)
+    else:
+        impares.append(i)
 
-print(list)
+# Mostrar resultados
+print("Números pares:", pares)
+print("Números impares:", impares)
